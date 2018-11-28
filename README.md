@@ -2,7 +2,7 @@
 
 A TextView that automatically resizes text to fit perfectly within its bounds.
 
-**NOTE:** This is an updated version that is compatible with the latest Android APIs. The project and the example were also updated.
+**NOTE:** This is an updated version that is compatible with the latest Android APIs. The project and the example were also updated. On the releases page, there is a .7z file containing the module ready to be added to any project.
 
 ![Example Image](/website/static/autofittextview.gif?raw=true)
 

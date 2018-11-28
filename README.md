@@ -1,7 +1,5 @@
 # AutoFitTextView
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.grantland/autofittextview/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/me.grantland/autofittextview)
-
 A TextView that automatically resizes text to fit perfectly within its bounds.
 
 ![Example Image](/website/static/autofittextview.gif?raw=true)
@@ -26,13 +24,12 @@ Enable any View extending TextView in XML:
 ```xml
 <me.grantland.widget.AutofitLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    >
+    android:layout_height="wrap_content">
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        />
+        android:maxLines="1" />
 </me.grantland.widget.AutofitLayout>
 ```
 
@@ -47,11 +44,9 @@ Use the built in Widget in code or XML:
 <me.grantland.widget.AutofitTextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:singleLine="true"
     android:maxLines="2"
     android:textSize="40sp"
-    autofit:minTextSize="16sp"
-    />
+    autofit:minTextSize="16sp" />
 ```
 
 

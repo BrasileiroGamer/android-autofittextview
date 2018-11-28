@@ -9,7 +9,7 @@ A TextView that automatically resizes text to fit perfectly within its bounds.
 
 ## Usage
 
-```cson
+```
 Unfortunately this version I updated is not on maven...
 ```
 

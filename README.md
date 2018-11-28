@@ -10,9 +10,7 @@ A TextView that automatically resizes text to fit perfectly within its bounds.
 ## Usage
 
 ```cson
-dependencies {
-    compile 'me.grantland:autofittextview:0.2.+'
-}
+Unfortunately this version I updated is not on maven...
 ```
 
 Enable any View extending TextView in code:

@@ -10,7 +10,7 @@ A TextView that automatically resizes text to fit perfectly within its bounds.
 ## Usage
 
 ```
-Unfortunately this version I updated is not on maven...
+Unfortunately this version I updated is not on maven.
 ```
 
 Enable any View extending TextView in code:

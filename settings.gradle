@@ -1,3 +1,3 @@
-rootProject.name='autofittextview'
-include ':library', \
-':sample'
+rootProject.name = 'autofittextview'
+
+include ':library', ':sample'

@@ -11,16 +11,18 @@ public class SampleActivity extends Activity {
 
     private TextView mOutput, mAutofitOutput;
 
-    /** Called when the activity is first created. */
+    /**
+     * Called when the activity is first created.
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        mOutput = (TextView)findViewById(R.id.output);
-        mAutofitOutput = (TextView)findViewById(R.id.output_autofit);
+        mOutput = findViewById(R.id.output);
+        mAutofitOutput = findViewById(R.id.output_autofit);
 
-        ((EditText)findViewById(R.id.input)).addTextChangedListener(new TextWatcher() {
+        ((EditText) findViewById(R.id.input)).addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i2, int i3) {
                 // do nothing
